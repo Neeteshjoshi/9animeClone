@@ -1,0 +1,429 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 15vh;
+}
+
+.headerLeft {
+    display: flex;
+    width: 70%;
+    padding-left: 100px;
+}
+
+.logo img {
+    width: 170px;
+    height: 50px;
+}
+
+.search input {
+    width: 380px;
+    height: 50px;
+    border-radius: 40px;
+    border: none;
+    padding-left: 20px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    background-color: rgb(29, 29, 29);
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.fa-search {
+    color: rgb(163, 163, 163);
+    position: relative;
+    right: 40px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.fa-twitter {
+    background-color: #1DA1F2;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 22px;
+}
+
+.fa-telegram {
+    background-color: #2AABEE;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 22px;
+    margin: 0 10px;
+}
+
+.fa-reddit {
+    background-color: #FF5700;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 22px;
+
+}
+
+.signIn {
+    width: 120px;
+    height: 50px;
+    border-radius: 40px;
+    background-color: #592e99;
+    border: none;
+    color: white;
+    font-family: 'Poppins';
+    font-size: 15px;
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+.content {
+    display: flex;
+}
+
+.card {
+    background-color: #592e99;
+    width: 96%;
+    height: 63vh;
+    margin-left: 15px;
+    font-family: 'Poppins';
+}
+
+.card img {
+    width: 100%;
+    height: 300px;
+}
+
+.card-info {
+    display: flex;
+    align-items: center;
+}
+
+.card-text {
+    margin-left: 20px;
+}
+
+.card-text h2 {
+    color: white;
+    padding: 5px 0;
+}
+
+.card-text p {
+    font-size: 14px;
+    color: rgb(185, 185, 185);
+}
+
+.card-btn {
+    margin-right: 20px;
+}
+
+.watchNowBtn {
+    width: 200px;
+    height: 60px;
+    background-color: white;
+    border-radius: 50px;
+    font-size: 24px;
+    font-weight: 500;
+    border: none;
+}
+
+.alert-box {
+    background-color: #d4edda;
+    width: 96%;
+    margin-left: 15px;
+    margin-top: 20px;
+    font-family: 'Poppins';
+    padding: 10px;
+    font-size: 15px;
+    color: #315c3b;
+}
+
+.recently-updated-section {
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 96%;
+}
+
+.recently-updated-card img {
+    width: 180px;
+    height: 250px;
+}
+
+.recently-updated-card p {
+   color: gray;
+   text-align: center;
+   font-family: 'Poppins';
+   font-size: 13px;
+}
+
+.recently-updated-section h1 {
+    color:  white;
+    font-family: 'Poppins';
+    margin-bottom: 10px;
+}
+
+.rows {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 10px;
+}
+
+.estimated-schedule-section {
+    margin-top: 20px;
+    width: 96%;
+    font-family: 'Poppins';
+    margin-left: 20px;
+    color: white;
+}
+
+.estimated-schedule-card {
+    background-color: rgb(41, 41, 41);
+    padding-top: 10px;
+}
+
+.estimated-schedule-card span {
+    color: gray;
+    font-weight: 200;
+    padding-left: 10px;
+    margin-left: 10px;
+}
+
+.estimated-schedule-card h3 {
+  margin-left: 10px;
+}
+
+.weeks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+
+.weekdays {
+    background-color: rgb(41, 41, 41);
+    border: 1px solid rgb(71, 71, 71);
+    margin-left: 10px;
+    text-align: center;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+.weekdays h5 {
+    font-size: 16px;
+}
+
+.weekdays p {
+    font-size: 12px;
+}
+
+.active {
+    background-color: #592e99;
+}
+
+.schedule {
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-between;
+    margin-left: 10px;
+    background-color: rgb(34, 34, 34);
+    margin-bottom: 20px;
+}
+
+.schedule-text {
+    display: flex;
+}
+
+.schedule-text p {
+    margin-left: 20px;
+}
+
+.schedule button {
+    width: 100px;
+    height: 25px;
+    margin-right: 10px;
+    background-color: rgb(34, 34, 34);
+    color: white;
+    outline: none;
+}
+
+footer {
+    background-color: rgb(32, 29, 29);
+    padding-left: 10px;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Poppins ';
+}
+.list {
+    margin-top: 50px;
+}
+
+.list-text {
+    color: grey;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.list-btn {
+    background-color: rgb(32, 29, 29);
+    color: white;
+    padding: 5px 10px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    outline: none;
+    margin-top: 5px;
+    border-radius: 4px;
+}
+
+.footer-info {
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+
+.footer-left {
+    width: 40%;
+}
+
+.footer-left img {
+    width: 160px;
+    height: 50px;
+}
+
+.left-text {
+    color: grey;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.footer-btn {
+    margin-top: 10px;
+}
+
+#footer-twitter, .fa-telegram, .fa-reddit {
+    background-color: gray;
+    padding: 5px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    color: rgb(20, 20, 20);
+    margin-left: 5px;
+}
+
+.disclaimer-text {
+    font-size: 11px;
+    color: grey;
+    margin: 15px 0;
+}
+
+.footer-middle {
+    position: relative;
+    bottom: 40px;
+}
+
+.footer-heading {
+    color: white;
+}
+
+.footer-text {
+    margin-top: 5px;
+    color: gray;
+}
+
+.footer-right {
+    position: relative;
+    bottom: 11px;
+}
+
+.footer-img img {
+    position: relative;
+    bottom: 40px;
+    width: 260px;
+    height: 400px;
+}
+
+.left-content {
+    width: 80%;
+}
+
+.right-content {
+    width: 30%;
+}
+
+
+
+.quick-filter-card {
+    background-color: rgb(24, 24, 24);
+    width: 95%;
+    padding: 10px 10px;
+    font-family: 'Poppins';
+   
+}
+
+.filter-rows{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+
+.quick-filter-card h2 {
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.filter-div {
+    background-color: rgb(43, 43, 43);
+    width: 90%;
+    text-align: center;
+    margin: 10px;
+    height: 30px;
+    color: gray;
+    font-size: 13px;
+    padding-top: 4px;
+}
+
+.filter-span {
+    color: white;
+    font-size: 14px;
+}
+
+#filterSearch {
+    background-color: rgb(24, 24, 24);
+    border: 1px solid rgb(43, 43, 43);
+    margin-left: 10px;
+    width: 95%;
+    height: 30px;
+    padding-left: 10px;
+    font-family: 'Poppins';
+    color: gray;
+    font-weight: 600;
+}
+
+.quick-filter-section h3 {
+    width: 95%;
+    display: grid;
+    place-items: center;
+    font-family: 'Poppins';
+    color: white;
+    font-weight: 400;
+    background-color: #592e99;
+    height: 40px;
+}
